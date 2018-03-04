@@ -1,0 +1,20 @@
+﻿<Window x:Class="homework.winAddEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:homework"
+        mc:Ignorable="d"
+        Title="winAddEmployee" Height="170" Width="300">
+    <Grid>
+        <TextBox x:Name="ече" HorizontalAlignment="Left" Height="23" Margin="80,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="80,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="80,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,17,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,45,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" RenderTransformOrigin="0.573,1.356"/>
+        <TextBlock HorizontalAlignment="Left" Margin="18,77,0,0" TextWrapping="Wrap" Text="Зарплата" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="80,105,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="195,105,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
