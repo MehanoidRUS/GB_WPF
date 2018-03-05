@@ -54,11 +54,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="winAddDepart.xaml.cs">
-      <DependentUpon>winAddDepart.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="DataChange.cs" />
+    <Compile Include="DataDep.cs" />
+    <Compile Include="DataView.cs" />
+    <Compile Include="IDataChange.cs" />
+    <Compile Include="IDataView.cs" />
+    <Compile Include="PDataChange.cs" />
     <Compile Include="winAddEmployee.xaml.cs">
       <DependentUpon>winAddEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinAddDepart.xaml.cs">
+      <DependentUpon>WinAddDepart.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -70,23 +76,21 @@
     </Compile>
     <Compile Include="Departments.cs" />
     <Compile Include="Employee.cs" />
-    <Compile Include="IView.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="winAddDepart.xaml">
+    <Page Include="winAddEmployee.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="winAddEmployee.xaml">
+    <Page Include="WinAddDepart.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model.cs" />
-    <Compile Include="Presenter.cs" />
+    <Compile Include="PDataView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

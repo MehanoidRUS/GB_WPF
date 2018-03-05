@@ -15,23 +15,28 @@ using System.Windows.Shapes;
 namespace homework
 {
     /// <summary>
-    /// Логика взаимодействия для winAddDepart.xaml
+    /// Логика взаимодействия для Window1.xaml
     /// </summary>
-    public partial class WinAddDepart : Window,IView
+    public partial class WinAddDepart : Window,IDataChange
     {
-        public WinAddDepart(Model model)
+        DataChange tmp;
+        public WinAddDepart(DataChange data)
         {
             InitializeComponent();
-            btnOk.Click += (s, e) => { model.AddDepartments(new Departments(NameField)); this.Close(); };
-            btnCancel.Click += (s, e) => { this.Close(); };
+            tmp = data;
         }
 
         public string NameField
         {
             get => txtName.Text;
-            set => txtName.Text=value;
+            set => txtName.Text = value;
         }
-        public string SurenameField { get; set; }
-        public int SalaryField { get; set; }
+
+
+        private void btnOk_Click(object sender, RoutedEventArgs e)
+        {
+            tmp.AddDepartments(new Departments(NameField));
+            this.Close();
+        }
     }
 }

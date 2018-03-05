@@ -17,15 +17,12 @@ namespace homework
     /// <summary>
     /// Логика взаимодействия для winAddEmployee.xaml
     /// </summary>
-    public partial class winAddEmployee : Window,IView
+    public partial class winAddEmployee : Window
     {
         public winAddEmployee()
         {
             InitializeComponent();
         }
 
-        public string NameField { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string SurenameField { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int SalaryField { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

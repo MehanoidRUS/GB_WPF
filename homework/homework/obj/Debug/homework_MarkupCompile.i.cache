@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\GeekBrains\C# Уровень 2\6\WPF\homework\homework\obj\Debug\
+D:\GeekBrains\C# Уровень 2\6\WPF\GB_WPF.git\homework\homework\obj\Debug\
 homework
 none
 false
 DEBUG;TRACE
-D:\GeekBrains\C# Уровень 2\6\WPF\homework\homework\App.xaml
-3-806155031
+D:\GeekBrains\C# Уровень 2\6\WPF\GB_WPF.git\homework\homework\App.xaml
+3-839643895
 
-16-851431007
+201154895671
 131569487696
-MainWindow.xaml;winAddDepart.xaml;winAddEmployee.xaml;
+MainWindow.xaml;winAddEmployee.xaml;WinAddDepart.xaml;
 
-False
+True
 
